@@ -12,3 +12,5 @@ the domain is dhe.duke.edu
   sudo mkdir /mnt/floyd_server/
   sudo mount -t cifs -o user=jl963,domain=dhe.duke.edu //duhsnas-pri.dhe.duke.edu/dusom_radonc_floyd/All_Staff /mnt/floyd_server/
   cd /mnt/floyd_server
+
+##note that server has to be connected on natilus first before any files can be accessed. when this isn't done, there would be a permission issue that can be solved by connecting via file browser first.
